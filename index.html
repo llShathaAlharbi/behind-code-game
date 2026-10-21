@@ -1,0 +1,22 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="theme-color" content="#241039"><title>مناسب أو لا؟ | خلف الكود</title><meta name="description" content="اسحب البطاقة واكتشف متى يناسب الفايب كودينج فكرتك."><link rel="stylesheet" href="style.css"><link rel="stylesheet" href="robot.css"></head>
+<body>
+<div class="universe" aria-hidden="true"><div class="grid"></div><div class="orb orb-one"></div><div class="orb orb-two"></div><div class="ring"></div><span class="code code-one">{ }</span><span class="code code-two">&lt;/&gt;</span><i class="spark s1"></i><i class="spark s2"></i><i class="spark s3"></i></div>
+<header><div class="brand"><img src="assets/initiative.png" alt="خلف الكود"><span></span><img src="assets/club.png" alt="Tuwaiq CLUB — Supported by Tuwaiq Academy | PNU"></div><div class="station"><span class="live-dot"></span> محطة الفايب كودينج</div><button id="motion" class="motion" aria-pressed="false" aria-label="إيقاف حركة الخلفية">Ⅱ</button></header>
+<main>
+<section class="intro"><div class="eyebrow">فكرة. قرار. اكتشاف.</div><h1>مناسب <span>أو لا؟</span></h1><p>مو كل فكرة تحتاج نفس الطريقة.<br class="mobile"> اقرأ الموقف… وخذ قرارك.</p></section>
+<section class="game" aria-label="لعبة مناسب أو لا">
+<div class="stats"><span id="counter">الحالة ١ من ٨</span><div class="progress" role="progressbar" aria-label="التقدم" aria-valuemin="0" aria-valuemax="8" aria-valuenow="0"><i id="progress"></i></div><span id="score">٠ نقاط</span></div>
+<div class="deck"><div id="robot-peek" class="robot-peek" aria-hidden="true"><img src="assets/robot-3d.png" alt="" draggable="false"></div><div class="back-card back-two"></div><div class="back-card back-one"></div>
+<article id="card" class="card" tabindex="0" aria-label="بطاقة السيناريو؛ اسحب يمينًا لمناسب أو يسارًا لغير مناسب">
+<div class="card-top"><span class="case-label">بطاقة قرار</span><span id="case-number">01 / 08</span></div>
+<div id="question"><div id="icon" class="scenario-icon" aria-hidden="true"></div><h2 id="scenario"></h2><p class="card-question">هل الفايب كودينج مناسب هنا؟</p><div class="drag-hint"><span>↔</span> اسحب البطاقة أو اختر بالأسفل</div></div>
+<div id="feedback" hidden aria-live="polite"><div id="result-icon" class="result-icon"></div><h2 id="result-title"></h2><div id="correct-answer" class="answer-label"></div><p id="explanation"></p><button id="next" class="next">الحالة التالية <span>←</span></button></div>
+<div id="summary" hidden><div class="result-icon summary-icon">✦</div><div class="eyebrow">اكتملت الجولة</div><h2>كل قرار… فهم أعمق.</h2><div id="final-score" class="final-score"></div><p>الفكرة البسيطة بداية مناسبة.<br>وكلما زادت المخاطر، احتجت فهمًا ومراجعة واختبارًا متخصصًا.</p><button id="restart" class="next">العب مرة أخرى ↻</button></div>
+<div id="swipe-label" aria-hidden="true"></div></article></div>
+<div id="choices" class="choices"><button data-answer="true" class="choice yes"><span class="choice-icon">✓</span><span>مناسب<small>اسحب يمينًا →</small></span></button><button data-answer="false" class="choice no"><span class="choice-icon">×</span><span>غير مناسب<small>← اسحب يسارًا</small></span></button></div>
+<p id="footnote" class="footnote">«مناسب» يعني وسيلة تساعدك، مع تجربة النتيجة ومراجعتها.</p>
+</section></main><footer><span>خلف الكود <b>✦</b> مساحة للتجربة والفهم</span><span class="keyboard-hint">يمكنك استخدام سهمَي لوحة المفاتيح</span></footer><div id="confetti" aria-hidden="true"></div>
+<script src="game.js"></script><script src="robot.js"></script></body></html>
+
